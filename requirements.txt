@@ -1,8 +1,9 @@
 streamlit
 pandas
-numpy
-sentence-transformers
-faiss-cpu
+plotly
+st-aggrid
 scikit-learn
-openai
-streamlit==1.38.0
+sentence-transformers
+torch
+numpy
+
