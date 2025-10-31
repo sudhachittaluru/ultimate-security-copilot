@@ -1,14 +1,29 @@
-
-
+# Core app libraries
 streamlit==1.38.0
-pandas==2.3.3
+pandas==2.2.3
 plotly==5.24.1
 streamlit-aggrid==0.3.4.post3
-scikit-learn==1.5.1
-sentence-transformers==3.0.1
+scikit-learn==1.5.2
 numpy==1.26.4
+
+# Embedding and LLM utilities
+sentence-transformers==3.0.1
 openai==1.35.3
-faiss-cpu==1.8.0
-transformers==4.42.0
-torch==2.5.1
+
+# Vector search (FAISS updated for Python 3.13)
+faiss-cpu==1.9.0.post1
+
+# Optional — useful for JSON, API calls, and data processing
+requests==2.32.3
+tqdm==4.66.5
+PyYAML==6.0.2
+
+# For anomaly detection and ML workflows
+joblib==1.4.2
+scipy==1.14.1
+
+# For Streamlit charts and interactivity
+altair==5.4.1
+matplotlib==3.9.2
+
 
